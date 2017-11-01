@@ -10,7 +10,12 @@ using namespace std;
                                                      
 int main()
 {
-	
+	int stax, ftax, wage;
+	char name(20);
+	stax = .07;
+	ftax = .1;
+	cin wage;
+	cin hoursworked;
 
 
 
