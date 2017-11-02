@@ -10,13 +10,14 @@ using namespace std;
                                                      
 int main()
 {
-	int stax, ftax, wage;
+	int stax, ftax, wage, hoursworked;
 	char name(20);
 	stax = .07;
 	ftax = .1;
-	cin wage;
-	cin hoursworked;
-
+	cout << "Enter your name.\n";
+	cin.getline (name,20);
+	cout << "Enter how many hours you have worked.\n";
+	cin >> hoursworked;
 
 
 
